@@ -115,7 +115,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="WestWorld\States.cpp" />
+    <ClCompile Include="WestWorld\Actor.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="WestWorld\Miner.cpp" />
+    <ClCompile Include="WestWorld\WestWorldManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WestWorld\States.h" />
+    <ClInclude Include="WestWorld\Actor.h" />
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="WestWorld\Miner.h" />
+    <ClInclude Include="WestWorld\State.h" />
+    <ClInclude Include="WestWorld\Locations.h" />
+    <ClInclude Include="WestWorld\WestWorldManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

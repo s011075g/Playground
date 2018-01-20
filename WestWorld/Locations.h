@@ -1,0 +1,8 @@
+#pragma once
+typedef enum LOCATIONS_TYPES
+{
+	LOCATION_SHACK,
+	LOCATION_GOLDMINE,
+	LOCATION_BANK,
+	LOCATION_SALOON
+} Locations;
